@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 5px;
+  background-color: black;
+  padding: 1.4%;
+}
+
+nav {
+  border-top: 3px solid;
+  border-right: 3px solid;
+  border-left: 3px solid;
+  border-color: rgb(141, 133, 133);
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 14px 0px 14px 0px;
+  padding: 9px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#myForm {
+  background: black;
+  color: white;
+}
+
+.post {
+  text-align: center;
+  padding: 14px;
+  /* margin: 0px 3px 0px 3px; */
+  border-bottom: 3px solid;
+  border-right: 3px solid;
+  border-left: 3px solid;
+  border-color: black;
+}
+
+#myForm {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 3% 10% 10% 10%;
+  border: 1px solid;
+}
+
+label {
+  padding-top: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button[type="submit"] {
+  background-color: black;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  border: 3px solid white;
+}
+
+#data,
+#d-data {
+  background: rgb(206, 203, 203);
+  /* background-color: rgb(56, 55, 55); */
+  width: auto;
+  padding: 1%;
+}
+
+footer {
+  margin-top: 2%;
+  padding: 8%;
+
+  background-color: black;
+}
+
+.intro,
+.d-intro {
+  padding: 3%;
+  color: white;
+  border: 5px solid;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  background-color: black;
+}
+
+.intro:hover,
+.d-intro:hover {
+  transform: rotateY(20deg);
+}
+
+.about,
+.d-about {
+  display: flex;
+  justify-content: center;
+  color: black;
+  border: 5px solid white;
+  background: white;
+  padding: 5%;
+}
+.contact,
+.d-contact {
+  display: flex;
+  color: white;
+  border: 5px solid;
+  background: black;
+  padding: 3%;
+  border-radius: 0px 0px 20px 20px;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.contact:hover,
+.d-contact:hover {
+  transform: rotateY(20deg);
+}

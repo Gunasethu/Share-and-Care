@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Share and care</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">OurGoal</a></li>
+        <li><a href="">AboutUs</a></li>
+      </ul>
+    </nav>
+
+    <!-- body -->
+    <section class="post">Tell about yourself</section>
+    <form id="myForm" autocomplete="off" onsubmit="return post(event); ">
+      <label for="">Name</label>
+      <input
+        type="text"
+        name="personName"
+        id="name"
+        required
+        autocomplete="off"
+      />
+
+      <label for="">Your product</label>
+      <input type="text" name="" id="ptype" required autocomplete="off" />
+
+      <label for="">Product Name</label>
+      <input type="text" name="" id="pname" required autocomplete="off" />
+
+      <label for="">About</label>
+      <input type="text" name="" id="about" required autocomplete="off" />
+
+      <label for="">Product Link</label>
+      <input type="text" name="" id="pLink" required autocomplete="off" />
+      <label for="">Mail</label>
+      <input type="email" name="" id="mail" />
+      <button type="submit">Post</button>
+    </form>
+
+    <div id="data"><br /></div>
+    <div id="d-data">
+      <div class="d-intro">
+        Hi Everyone This is Steve. I am an Editor and my product name is
+        TechCloud
+      </div>
+      <strong class="d-about"
+        >I am Editor at Large at Medium with interests in ferreting out the whys
+        for the turbulence all around us. Ex-Axios, ex-Quartz, ex-WSJ, ex-NYT,
+        ex-FT.As I need more reach for my blog can you take few seconds and
+        share.
+      </strong>
+      <p class="d-contact">
+        Product Link: www.medium/techcloud.com Email: techcloud@outlook.com
+      </p>
+      <strong></strong>
+    </div>
+
+    <div id="d-data">
+      <div class="d-intro">
+        Hi Everyone This is Francois-Xavier P. Darveau. I am an DEVELOPER and my
+        product name is MENTUM
+      </div>
+      <strong class="d-about"
+        >I am a passionate nerd in disguise from Québec City. I strives for
+        excellence in everything I does, be it software development or nailing
+        tricks on the slackline. I'm running a Youtube Channel name EasyDev. As
+        I need more viewers, help me out by sharing.
+      </strong>
+      <p class="d-contact">
+        Product Link: www.youtube/tmentum.com Email: mentum@gmail.com
+      </p>
+      <strong></strong>
+    </div>
+
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
